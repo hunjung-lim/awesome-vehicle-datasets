@@ -15,6 +15,21 @@
 ---
 [SYDNEY URBAN OBJECTS DATASET](http://www.acfr.usyd.edu.au/papers/SydneyUrbanObjectsDataset.shtml)
 
+---
+
+### Datasets
+  ![COCO](https://c2.staticflickr.com/4/3690/33003654372_bea4d16186_b.jpg)
+* PASCAL [[Project]](http://host.robots.ox.ac.uk/pascal/VOC/)
+  * Mark Everingham, Luc Van Gool, Christopher K. I. Williams, John Winn, and Andrew Zisserman, [The PASCAL Visual Object Classes (VOC) Challenge](http://host.robots.ox.ac.uk/pascal/VOC/pubs/everingham10.pdf), IJCV, 2010.
+* MS COCO [[Project]](http://mscoco.org/)
+  * Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Dollár, [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312.pdf), ECCV, 2014.
+* ImageNet [[Project]](http://www.image-net.org/)
+  * Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei, [ImageNet: A Large-Scale Hierarchical Image Database](http://www.image-net.org/papers/imagenet_cvpr09.pdf), CVPR, 2009.
+* NYU Depth Dataset [[Project]](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
+  * Nathan Silberman, Pushmeet Kohli, Derek Hoiem, and Rob Fergus, [Indoor Segmentation and Support Inference from RGBD Images](http://cs.nyu.edu/~silberman/papers/indoor_seg_support.pdf), ECCV, 2012.
+* KITTI [[Project]](http://www.cvlibs.net/datasets/kitti/index.php)
+  * Andreas Geiger and Philip Lenz and Raquel Urtasun, [Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf), CVPR, 2012.
+
 
 ---
 * [**Annotated Driving Datasets**](https://github.com/udacity/self-driving-car/tree/master/annotations) – Many hours of labelled driving data
