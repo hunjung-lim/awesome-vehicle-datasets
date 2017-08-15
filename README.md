@@ -6,6 +6,8 @@
 
 ### LiDAR
 
+- [Didi Data Release #2 - Round 1 Test Sequence and Training	](http://academictorrents.com/details/18d7f6be647eb6d581f5ff61819a11b9c21769c7)
+
 ### RGBD
 
 - [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
