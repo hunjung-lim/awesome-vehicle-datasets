@@ -2,6 +2,10 @@
 
 ## 2D
 
+### Segmentation
+
+- [cityscapes-dataset](https://www.cityscapes-dataset.com/)
+
 ## 3D
 
 ### LiDAR
