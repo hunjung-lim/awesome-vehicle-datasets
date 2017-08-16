@@ -1,3 +1,28 @@
+
+## 1. 개요
+
+[didi-competition](https://github.com/udacity/didi-competition)
+
+## 2. Download link(torrent) 
+
+[Dataset 1(32.80G](http://academictorrents.com/details/76352487923a31d47a6029ddebf40d9265e770b5)
+NOT SUITABLE FOR TRACKLET GENERATION. 
+
+Dataset intended for particpants to become familiar with the sensor data format and ROS in general. 
+
+Tracklet code must be modified to work on this dataset, and no capture vehicle orientation is available unless using Course-Over-Ground techniques.
+
+
+[Dataset 2(21.93G)](http://academictorrents.com/details/18d7f6be647eb6d581f5ff61819a11b9c21769c7)
+Three different vehicles with a variety of maneuvers, and the Round 1 test seuence. 
+
+Larger image sizes and two GPS RTK units on the capture vehicle for orientation determination. 
+
+Velodyne points have been removed to reduce size, so a Velodyne LIDAR driver must be run during bag playback.
+
+---
+README.txt
+
 Udacity is using a new dataset production method that allows for quick processing and release cycles. 
 
 Instead of spending weeks (or months) waiting on 3D annotation data to be produced by third-party companies, we have elected to try out something new that enables datasets to be released immediately after they are recorded. 
