@@ -107,8 +107,11 @@ Good luck!
 
 --- 
 
+- [ROS and ROS bags](http://ronny.rest/blog/post_2017_03_29_ros/)
 
+- [ROS and ROS bags - Part2](http://ronny.rest/blog/post_2017_03_30_ros2/)
 
+- [ROS and ROS bags - Part3](http://ronny.rest/blog/post_2017_03_30_ros3_and_lidar/)
 
 
 - [Vehicle detection using LIDAR: EDA, augmentation and feature extraction (Udacity/Didi challenge)](https://chatbotslife.com/vehichle-detection-using-lidar-eda-augmentation-and-feature-extraction-udacity-didi-challenge-4c95a0c28566)
