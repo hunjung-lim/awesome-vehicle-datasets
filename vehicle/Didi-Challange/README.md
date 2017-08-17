@@ -3,14 +3,64 @@
 
 [didi-competition](https://github.com/udacity/didi-competition)
 
+
+
+목표 : output a set of obstacles, removing noise 
+
+Kitti datasets와 다른점
+- It is important to note that recorded positions are recorded with respect to the base station, not the capture vehicle. 
+
+- The NED positions in the ‘rtkfix’ topic are therefore in relation to a FIXED POINT, `NOT THE CAPTURE OR OBSTACLE VEHICLES`. 
+
+- The relative positions can be calculated easily, as the NED frame is cartesian space, not polar.
+
+- The XML tracklet files will be in the frame of the capture vehicle
+	-  denoted by the ROS topic '/gps/rtkfix'
+    - There is no XML tracklet file included with these datasets.???
+    
+- The single obstacle vehicle in this dataset is located in the `obs1/` topic namespace
+	- this will be changed to `/obstacles/obstacle_name` for  multiple obstacles
+
+
+
 ## 2. Download link(torrent) 
 
-[Dataset 1(32.80G](http://academictorrents.com/details/76352487923a31d47a6029ddebf40d9265e770b5)
+Dataset 1(32.80G) : [Didi-Training-Release-1.tar](http://academictorrents.com/details/76352487923a31d47a6029ddebf40d9265e770b5)
+
+```
+Didi-Training-Release-1.tar
+- Noisy
+	- Didi-Toyota-bad.tar.gz
+    	- 
+    - NOISY_5mph_approach.bag
+    - NOISY_5mph_weave.bag
+    - NOISY_cut_off.bag
+    - NOISY_cut_off_2.bag
+    - NOISY_follow_1.bag
+- 5mph.bag
+- approach_1.bag
+- approach_2.bag
+- approach_3.bag
+- corner_pass.bag
+- intersection_1.bag
+- NOISY_spin_2.bag
+- overtake.bag
+- sitting.bag
+- spin.bag
+- spin_3.bag
+- spin_shoreline.bag
+- README.md
+```
+
 NOT SUITABLE FOR TRACKLET GENERATION. 
 
 Dataset intended for particpants to become familiar with the sensor data format and ROS in general. 
 
 Tracklet code must be modified to work on this dataset, and no capture vehicle orientation is available unless using Course-Over-Ground techniques.
+
+
+
+
 
 
 [Dataset 2(21.93G)](http://academictorrents.com/details/18d7f6be647eb6d581f5ff61819a11b9c21769c7)
