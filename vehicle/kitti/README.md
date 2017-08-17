@@ -108,3 +108,5 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 - Andreas Geiger, "[Vision meets Robotics: The KITTI Dataset](http://www.cvlibs.net/publications/Geiger2013IJRR.pdf)", IJRR 2013, 현 데이터와 다른 부분이 있음(Update 반영 안됨)
 
 - [Visualizing lidar data](https://navoshta.com/kitti-lidar/) : Alex Staravoitau, [Github](https://github.com/navoshta)
+
+- [KITTI Dataset Exploration](https://github.com/navoshta/KITTI-Dataset/blob/master/README.md)
