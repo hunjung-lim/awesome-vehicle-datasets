@@ -34,7 +34,7 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 수집 지역 : Karlsruhe, Germany
 
 
-|![](http://i.imgur.com/JGJmlBl.png)|<div style="text-align: center"><iframe width="560" height="315" src="https://youtu.be/KXpZ6B1YB_k" frameborder="0" allowfullscreen></iframe> </div>|
+|![](http://i.imgur.com/JGJmlBl.png)|<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/KXpZ6B1YB_k" frameborder="0" allowfullscreen></iframe></div>|
 |-|-|
 
 
