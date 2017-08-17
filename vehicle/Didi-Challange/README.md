@@ -31,16 +31,26 @@ Dataset 1(32.80G) : [Didi-Training-Release-1.tar](http://academictorrents.com/de
 Didi-Training-Release-1.tar
 - Noisy
 	- Didi-Toyota-bad.tar.gz
-    	- 
+    	- 4waystop.bag
+        - {5, 25, 50}mph.bag
+        - a_follow_ststop.bag
+        - a{5,25}mph.bag
+        - acreepmph.bag
+        - acurvemph.bag
+        - angle.bag
+        - fointersectag.bag
+        - follow_stop2.bag
+        - inter2.bag
+        - lane.bag
+        - lane{2, 3}.bag
+        - sitting.bag
     - NOISY_5mph_approach.bag
     - NOISY_5mph_weave.bag
     - NOISY_cut_off.bag
     - NOISY_cut_off_2.bag
     - NOISY_follow_1.bag
 - 5mph.bag
-- approach_1.bag
-- approach_2.bag
-- approach_3.bag
+- approach_{1, 2, 3}.bag
 - corner_pass.bag
 - intersection_1.bag
 - NOISY_spin_2.bag
