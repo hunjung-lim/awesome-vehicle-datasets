@@ -3,10 +3,50 @@
 
 [The KITTI Vision Benchmark Suite Download](http://www.cvlibs.net/datasets/kitti/raw_data.php)
 
+# KITTI Dataset
 
-Data Category : City | Residential | Road | Campus | Person | Calibration
+## 1. 개요 
 
-Data include following information ( synchronized at 10 Hz)
+용도 : Benchmarks for stereo, optical flow, object detection
+
+|Recording platform|Sensor Setup|
+|-|-|
+|![](http://i.imgur.com/AhM5oqn.png)|![](http://i.imgur.com/EQAemV3.png)|
+
+
+센서 :  
+- 2 × PointGray Flea2 grayscale cameras (FL2-14S3M-C), 1.4 Megapixels, 1/2” Sony ICX267 CCD, global shutter
+
+- 2 × PointGray Flea2 color cameras (FL2-14S3C-C), 1.4 Megapixels, 1/2” Sony ICX267 CCD, global shutter
+
+- 4 × Edmund Optics lenses, 4mm, opening angle ∼ 90◦, vertical opening angle of region of interest (ROI) ∼ 35◦
+
+- 1 × Velodyne HDL-64E rotating 3D laser scanner, 10 Hz,64 beams, 0.09 degree angular resolution, 2 cm distance
+accuracy, collecting ∼ 1.3 million points/second, field of view: 360◦ horizontal, 26.8◦ vertical, range: 120 m
+
+-  1 × OXTS RT3003 inertial and GPS navigation system,6 axis, 100 Hz, L1/L2 RTK, resolution: 0.02m / 0.1◦
+
+> 두개의 카메라를 사용하는 이유 : Note that the color cameras lack in terms of resolution due
+to the Bayer pattern interpolation process and are less sensitive to light. This is the reason why we use two stereo camera rigs, one for grayscale and one for color. 
+
+대상 : traffic scenarios 
+
+수집 지역 : Karlsruhe, Germany
+
+
+
+
+
+![](http://i.imgur.com/JGJmlBl.png)
+
+
+## 2. 데이터 
+
+### 2.1 데이터 분류 
+
+- City | Residential | Road | Campus | Person | Calibration
+
+### 2.2 데이터 내용 ( synchronized at 10 Hz)
 - Raw (unsynced+unrectified) and processed (synced+rectified) grayscale stereo sequences (0.5 Megapixels, stored in png format)
 - Raw (unsynced+unrectified) and processed (synced+rectified) color stereo sequences (0.5 Megapixels, stored in png format)
 - 3D Velodyne point clouds (100k points per frame, stored as binary float matrix)
@@ -54,5 +94,18 @@ Data include following information ( synchronized at 10 Hz)
 ![](http://i.imgur.com/YS9mcMa.png)
 
 
+## 관련 툴 
+
+- QT 기반 시각화 툴 : [QtKittiVisualizer](https://github.com/MarkMuth/QtKittiVisualizer)
+
+- Python 기반 parser for reading the object label XML files : [parseTrackletXML.py](http://www.cvlibs.net/datasets/kitti/downloads/parseTrackletXML.py)
+
+- some python tools for loading and parsing the KITTI raw and odometry datasets : [pykitti](https://github.com/utiasSTARS/pykitti)
+
+- ROS bag 변환 툴  : [kitti2bag](https://github.com/tomas789/kitti2bag), [kitti_to_rosbag](https://github.com/ethz-asl/kitti_to_rosbag)
+
 --- 
-[pykitti](https://github.com/utiasSTARS/pykitti)
+
+- Andreas Geiger, "[Vision meets Robotics: The KITTI Dataset](http://www.cvlibs.net/publications/Geiger2013IJRR.pdf)", IJRR 2013, 현 데이터와 다른 부분이 있음(Update 반영 안됨)
+
+
