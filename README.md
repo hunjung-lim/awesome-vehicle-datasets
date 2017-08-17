@@ -89,11 +89,11 @@
 
 ---
 [Related Datasets](http://www.cvlibs.net/datasets/kitti/raw_data.php)
-CMU Visual Localization Data Set: Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
-NYU RGB-D Dataset: Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
-TUM RGB-D Dataset: Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
-New College Dataset: 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
-The Rawseeds Project: Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
-Victoria Park Sequence: Widely used sequence for evaluating laser-based SLAM. Trees serve as landmarks, detection code is included.
-Malaga Dataset 2009 and Malaga Dataset 2013: Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
-Ford Campus Vision and Lidar Dataset: Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
+- CMU Visual Localization Data Set: Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
+- NYU RGB-D Dataset: Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
+- TUM RGB-D Dataset: Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
+- New College Dataset: 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
+- The Rawseeds Project: Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
+- Victoria Park Sequence: Widely used sequence for evaluating laser-based SLAM. Trees serve as landmarks, detection code is included.
+- Malaga Dataset 2009 and Malaga Dataset 2013: Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
+- Ford Campus Vision and Lidar Dataset: Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
