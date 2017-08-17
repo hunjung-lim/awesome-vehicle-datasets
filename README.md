@@ -85,3 +85,15 @@
 - [Build Your Own Real Time Traffic Data Feed]http://www.chioka.in/build-your-own-real-time-traffic-data-feed/): 교통카메라를 이용항 차량 이미지 획득 방법에 대하여
 
 - [US 차량 궤적](https://www.fhwa.dot.gov/publications/research/operations/its/06135/index.cfm): NGSIM (Next Generation SIMulation이라 하여 미국 고속도로에 대해 비디오 분석 및 수작업을 통해 추적한 차량의 주행 궤적자료를 포함
+
+
+---
+[Related Datasets](http://www.cvlibs.net/datasets/kitti/raw_data.php)
+CMU Visual Localization Data Set: Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
+NYU RGB-D Dataset: Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
+TUM RGB-D Dataset: Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
+New College Dataset: 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
+The Rawseeds Project: Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
+Victoria Park Sequence: Widely used sequence for evaluating laser-based SLAM. Trees serve as landmarks, detection code is included.
+Malaga Dataset 2009 and Malaga Dataset 2013: Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
+Ford Campus Vision and Lidar Dataset: Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
