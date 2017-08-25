@@ -20,6 +20,12 @@
 [SYDNEY URBAN OBJECTS DATASET](http://www.acfr.usyd.edu.au/papers/SydneyUrbanObjectsDataset.shtml)
 
 ---
+- Torontocity
+- Oxford Robotcar dataset
+- Berkely deepdrive datasset
+- Simulators : Torcs, GTA, etc
+
+---
 
 ### Datasets
   ![COCO](https://c2.staticflickr.com/4/3690/33003654372_bea4d16186_b.jpg)
