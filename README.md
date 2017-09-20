@@ -12,6 +12,22 @@
 
 - [Didi Data Release #2 - Round 1 Test Sequence and Training	](http://academictorrents.com/details/18d7f6be647eb6d581f5ff61819a11b9c21769c7)
 
+- [Large-Scale Point Cloud Classification Benchmark](http://www.semantic3d.net/)
+	- urban scenes: churches, streets, railroad tracks, squares, villages, soccer fields, castles
+    - A large set of point clouds with over **one billion** of labelled points.
+
+
+- [Oakland data set](http://www.cs.cmu.edu/~vmr/datasets/oakland_3d/cvpr09/doc/): ~2 million labelled points
+
+
+- [NYU benchmark](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html): only indoor scenes
+
+- [Sydney Urban Objects data set](http://www.acfr.usyd.edu.au/papers/SydneyUrbanObjectsDataset.shtml): 3D Velodyne LIDAR mounted on a car which provides much lower point density
+
+- [IQmulus & TerraMobilita Contest](http://data.ign.fr/benchmarks/UrbanAnalysis/): 3D Velodyne LIDAR mounted on a car which provides much lower point density
+
+- [ Vaihingen3D airborne benchmark](http://www2.isprs.org/commissions/comm3/wg4/3d-semantic-labeling.html): lower point density
+
 ### RGBD
 
 - [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
@@ -24,6 +40,8 @@
 - Oxford Robotcar dataset
 - Berkely deepdrive datasset
 - Simulators : Torcs, GTA, etc
+
+
 
 ---
 
