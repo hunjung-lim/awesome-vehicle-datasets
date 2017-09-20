@@ -29,14 +29,27 @@
 
 ### Datasets
   ![COCO](https://c2.staticflickr.com/4/3690/33003654372_bea4d16186_b.jpg)
-* PASCAL [[Project]](http://host.robots.ox.ac.uk/pascal/VOC/)
+
+* PASCAL(Pattern Analysis, Statistical Modeling and Computational Learning) [[Project]](http://host.robots.ox.ac.uk/pascal/VOC/)
   * Mark Everingham, Luc Van Gool, Christopher K. I. Williams, John Winn, and Andrew Zisserman, [The PASCAL Visual Object Classes (VOC) Challenge](http://host.robots.ox.ac.uk/pascal/VOC/pubs/everingham10.pdf), IJCV, 2010.
+  - 국제대회로 2005년부터 2012년까지 총 8회에 걸쳐서 매년 진행, Mark Everingham 사망으로 2012년 대회를 마지막으로 챌린지를 종료
+	- 사람: 사람
+	- 동물: 새, 고양이, 소, 개, 말, 양
+	- 탈것: 비행기, 자전거, 보트, 버스, 승용차, 오토바이, 기차
+	- 사물: 병, 의자, 식탁, 화초, 소파, 모니터
+
 * MS COCO [[Project]](http://mscoco.org/)
   * Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Dollár, [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312.pdf), ECCV, 2014.
+
+
 * ImageNet [[Project]](http://www.image-net.org/)
   * Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei, [ImageNet: A Large-Scale Hierarchical Image Database](http://www.image-net.org/papers/imagenet_cvpr09.pdf), CVPR, 2009.
+
+
 * NYU Depth Dataset [[Project]](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
   * Nathan Silberman, Pushmeet Kohli, Derek Hoiem, and Rob Fergus, [Indoor Segmentation and Support Inference from RGBD Images](http://cs.nyu.edu/~silberman/papers/indoor_seg_support.pdf), ECCV, 2012.
+
+
 * KITTI [[Project]](http://www.cvlibs.net/datasets/kitti/index.php)
   * Andreas Geiger and Philip Lenz and Raquel Urtasun, [Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf), CVPR, 2012.
 
