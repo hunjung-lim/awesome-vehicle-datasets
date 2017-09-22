@@ -1,5 +1,6 @@
-
-
+			+ Stereo, Lidar, GPS		
+			+ Classes: Car, Pedestrian, Cyclist
+			+ GT: Bounding box
 
 [The KITTI Vision Benchmark Suite Download](http://www.cvlibs.net/datasets/kitti/raw_data.php)
 
