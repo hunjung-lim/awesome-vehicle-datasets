@@ -1,1 +1,0 @@
-[Training road scene segmentation on Cityscapes with Supervisely, Tensorflow and UNet](https://medium.com/towards-data-science/training-road-scene-segmentation-on-cityscapes-with-supervisely-tensorflow-and-unet-1232314781a8)
