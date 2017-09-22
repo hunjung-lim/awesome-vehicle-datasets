@@ -33,6 +33,14 @@
 
 - [IQmulus & TerraMobilita Contest](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/Terra_Mobilita_Contest): 3D Velodyne LIDAR mounted on a car which provides much lower point density
 
+- [New College Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/NewCollegeData): 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
+
+- [Malaga Dataset 2013](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/Malaga_Dataset): Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
+
+
+- [Ford Campus Vision and Lidar Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/Ford_Campus_dataset): Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
+
+- [Data61/2D3D Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/Data61_2D3D_Dataset)
 
 # Object
 
@@ -64,7 +72,25 @@
 
 - [GTSRB_Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Traffic_Sign/GTSRB_Dataset)
 
-# 3D 
+# Pedestrian
+
+- [Caltech Pedestrian Detection Benchmark](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/Caltech_Pedestrian_Dataset)
+
+- [GM-ATCI Rear-view pedestrians dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/GM_ATCI): Rear-View Pedestrians Dataset captured from a fisheye-lens camera.
+
+- [Daimler Pedestrian Segmentation Benchmark Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/Daimler_Pedestrian_Segmentation_Benchmark_Dataset): Also captured in an urban setting, update of the older DaimlerChrysler dataset. Contains tracking information and a large number of labeled bounding boxes.
+
+- [Data61 Pedestrian Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/Data61_Pedestrian_Dataset): A large scale urban dataset collected in multiple cities/countries. No motion/tracking information, but significant number of unique pedestrians.
+
+- [Robust Multi-Person Tracking from Mobile Platforms](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/Robust_Multi-Person_Tracking): Urban dataset captured from a stereo rig mounted on a stroller.
+
+- [INRIA Person Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/INRIA_Person_Dataset): CVPR 2005, Currently one of the most popular static pedestrian detection datasets.
+
+- [Elektra](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/Elektra): collection of pedestrian datasets including pedestrian videos acquired on-board, virtual-world pedestrians (with part annotations), and occluded pedestrians.
+
+- [USC Pedestrian Detection Test Set](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/USC_Pedestrian_Detection_TestSet): A number of fairly small pedestrian datasets taken largely from surveillance video.
+
+- [MIT CBCL PEDESTRIAN DATABASE](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Pedestrian/MIT_CBCL_Pedestrian_Data): One of the first pedestrian datasets, fairly small and relatively well solved at this point.
 
 
 # etc
@@ -78,39 +104,24 @@
 
 - [Udacity](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/etc/Wheel_Angle/udacity): Cameras, GPS, gear, brake, throttle, steering angles and speed.
 
+## Trip_Record
+
+- [NYC_TLC](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/etc/Trip_Record/NYC_TLC): 뉴욕택시운행기록
+
+
+## Driver
+
+- [Elektra Driver Face Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/etc/Driver/Elektra_Driver_Face_dataset)
+
 ##  Unknown
 
 * [**Driving Datasets**](https://github.com/udacity/self-driving-car/tree/master/datasets) – Over 10 hours of driving data (LIDAR, camera frames and more)
 
 - [CMU Visual Localization Data Set](http://3dvis.ri.cmu.edu/data-sets/localization/): Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
 
----
-
-# Open Data
-
-
-
-
-
-- [TUM RGB-D Dataset](http://cvpr.in.tum.de/data/datasets/rgbd-dataset): Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
-- [New College Dataset](http://www.robots.ox.ac.uk/NewCollegeData/): 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
 - [The Rawseeds Project](http://www.rawseeds.org/): Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
-- [Victoria Park Sequence](http://www-personal.acfr.usyd.edu.au/nebot/victoria_park.htm): Widely used sequence for evaluating laser-based SLAM. Trees serve as landmarks, detection code is included.
-- [Malaga Dataset 2009](http://www.mrpt.org/Paper:Malaga_Dataset_2009) and [Malaga Dataset 2013](http://www.mrpt.org/MalagaUrbanDataset): Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
-- [Ford Campus Vision and Lidar Dataset](http://robots.engin.umich.edu/SoftwareData/Ford): Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
-
-- [Build Your Own Real Time Traffic Data Feed]http://www.chioka.in/build-your-own-real-time-traffic-data-feed/): 교통카메라를 이용항 차량 이미지 획득 방법에 대하여
-
-- [US 차량 궤적](https://www.fhwa.dot.gov/publications/research/operations/its/06135/index.cfm): NGSIM (Next Generation SIMulation이라 하여 미국 고속도로에 대해 비디오 분석 및 수작업을 통해 추적한 차량의 주행 궤적자료를 포함
 
 
----
-[Related Datasets](http://www.cvlibs.net/datasets/kitti/raw_data.php)
-- CMU Visual Localization Data Set: Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
-- NYU RGB-D Dataset: Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
-- TUM RGB-D Dataset: Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
-- New College Dataset: 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
-- The Rawseeds Project: Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
-- Victoria Park Sequence: Widely used sequence for evaluating laser-based SLAM. Trees serve as landmarks, detection code is included.
-- Malaga Dataset 2009 and Malaga Dataset 2013: Dataset with GPS, Cameras and 3D laser information, recorded in the city of Malaga, Spain.
-- Ford Campus Vision and Lidar Dataset: Dataset collected by a Ford F-250 pickup, equipped with IMU, Velodyne and Ladybug.
+
+
+
