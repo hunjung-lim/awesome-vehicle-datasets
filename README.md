@@ -12,11 +12,6 @@
 > 출처 : [Object detection: an overview in the age of Deep Learning](https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/)
 
 
-![](https://i.imgur.com/rSz7Alf.png)
-
-
-
-
 # 2D 
 
 # Scene 
