@@ -1,3 +1,7 @@
+			+ Stereo, Timestamp		
+			+ Groups: flat, human, vehicle, construction, object, nature, sky, void
+			+ GT: Dense pixel-level annotations 
+
 # CITISCAPES Datasets 
 
 - https://www.cityscapes-dataset.com
