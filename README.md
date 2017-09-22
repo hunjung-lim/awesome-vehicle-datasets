@@ -1,51 +1,5 @@
 # awesome-vehicle-datasets
 
-## 2D
-
-### Segmentation
-
-- [cityscapes-dataset](https://www.cityscapes-dataset.com/)
-
-## 3D
-
-### LiDAR
-
-- [Didi Data Release #2 - Round 1 Test Sequence and Training	](http://academictorrents.com/details/18d7f6be647eb6d581f5ff61819a11b9c21769c7)
-
-- [Large-Scale Point Cloud Classification Benchmark](http://www.semantic3d.net/)
-	- urban scenes: churches, streets, railroad tracks, squares, villages, soccer fields, castles
-    - A large set of point clouds with over **one billion** of labelled points.
-
-
-- [Oakland data set](http://www.cs.cmu.edu/~vmr/datasets/oakland_3d/cvpr09/doc/): ~2 million labelled points
-
-
-- [NYU benchmark](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html): only indoor scenes
-
-- [Sydney Urban Objects data set](http://www.acfr.usyd.edu.au/papers/SydneyUrbanObjectsDataset.shtml): 3D Velodyne LIDAR mounted on a car which provides much lower point density
-
-- [IQmulus & TerraMobilita Contest](http://data.ign.fr/benchmarks/UrbanAnalysis/): 3D Velodyne LIDAR mounted on a car which provides much lower point density
-
-- [ Vaihingen3D airborne benchmark](http://www2.isprs.org/commissions/comm3/wg4/3d-semantic-labeling.html): lower point density
-
-### RGBD
-
-- [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
-
----
-[SYDNEY URBAN OBJECTS DATASET](http://www.acfr.usyd.edu.au/papers/SydneyUrbanObjectsDataset.shtml)
-
----
-- Torontocity
-- Oxford Robotcar dataset
-- Berkely deepdrive datasset
-- Simulators : Torcs, GTA, etc
-
-
-
----
-
-### Datasets
 
 |ID|Name|#Images|#Classes|Last Updated|Categories|
 |-|-|-|-|-|-|
@@ -63,70 +17,81 @@
 
 - List of datasets : [Are we there yet](http://rodrigob.github.io/are_we_there_yet/build/#about)
 
-* PASCAL(Pattern Analysis, Statistical Modeling and Computational Learning) [[Project]](http://host.robots.ox.ac.uk/pascal/VOC/)
-  * Mark Everingham, Luc Van Gool, Christopher K. I. Williams, John Winn, and Andrew Zisserman, [The PASCAL Visual Object Classes (VOC) Challenge](http://host.robots.ox.ac.uk/pascal/VOC/pubs/everingham10.pdf), IJCV, 2010.
-  - 국제대회로 2005년부터 2012년까지 총 8회에 걸쳐서 매년 진행, Mark Everingham 사망으로 2012년 대회를 마지막으로 챌린지를 종료
-	- 사람: 사람
-	- 동물: 새, 고양이, 소, 개, 말, 양
-	- 탈것: 비행기, 자전거, 보트, 버스, 승용차, 오토바이, 기차
-	- 사물: 병, 의자, 식탁, 화초, 소파, 모니터
 
-* MS COCO [[Project]](http://mscoco.org/)
-  * Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Dollár, [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312.pdf), ECCV, 2014.
+# 2D 
 
+# Scene 
 
-* ImageNet [[Project]](http://www.image-net.org/)
-  * Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li and Li Fei-Fei, [ImageNet: A Large-Scale Hierarchical Image Database](http://www.image-net.org/papers/imagenet_cvpr09.pdf), CVPR, 2009.
+- [cityscapes-dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/cityscapes)
+
+- [Large-Scale Point Cloud Classification Benchmark](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/semantic3d)
+
+- [Oakland](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/Oakland): 2009, 2011, ~2 million labelled points
+
+- [Sydney Urban Objects data set](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/sydney_urban_objects_dataset): 3D Velodyne LIDAR mounted on a car which provides much lower point density
 
 
-* NYU Depth Dataset [[Project]](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
-  * Nathan Silberman, Pushmeet Kohli, Derek Hoiem, and Rob Fergus, [Indoor Segmentation and Support Inference from RGBD Images](http://cs.nyu.edu/~silberman/papers/indoor_seg_support.pdf), ECCV, 2012.
+- [IQmulus & TerraMobilita Contest](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/scene/Terra_Mobilita_Contest): 3D Velodyne LIDAR mounted on a car which provides much lower point density
 
 
-* KITTI [[Project]](http://www.cvlibs.net/datasets/kitti/index.php)
-  * Andreas Geiger and Philip Lenz and Raquel Urtasun, [Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf), CVPR, 2012.
+# Object
+
+* ImageNet [[Project]](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Object/ImageNet)
+
+- [PASCAL VOC](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/PASCAL_VOC)
+
+* [COCO](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/COCO)
 
 
----
-* [**Annotated Driving Datasets**](https://github.com/udacity/self-driving-car/tree/master/annotations) – Many hours of labelled driving data
+# Vehicle 
+
+- [Didi Challenge](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/Didi-Challange)
+
+* [KITTI](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/kitti)
+
+- [Autti](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/Autti)
+
+- [CrowdAI](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/CrowdAI)
+
+- [SYNTHIA Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/SYNTHIA%20Dataset)
+
+* [Oxford Robot Car Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/Oxford_Robotcar_Dataset)
+
+- [GTI](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/GTI)
+
+# Traffic Sign
+* [Traffic Sign](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Traffic_Sign/BelgiumTS) : 신호등 데이터셋
+
+- [GTSRB_Dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/Traffic_Sign/GTSRB_Dataset)
+
+# 3D 
+
+
+# etc
+## indoor
+
+- [NYU RGB-D Dataset](http://cs.nyu.edu/~silberman/datasets/): Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
+
+
+## Wheel Angle
+- [Comma.ai driving dataset](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/etc/Wheel_Angle/CommaAI) : 자율 주행, 7.5 hours of camera images, steering angles, and other vehicle data.
+
+- [Udacity](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/etc/Wheel_Angle/udacity): Cameras, GPS, gear, brake, throttle, steering angles and speed.
+
+##  Unknown
+
 * [**Driving Datasets**](https://github.com/udacity/self-driving-car/tree/master/datasets) – Over 10 hours of driving data (LIDAR, camera frames and more)
 
----
-1. Build a testbed / Select datasets
-	+ Datasets: Traffic scenes
-		+ KITTI [[Link]](http://www.cvlibs.net/datasets/kitti/)
-			+ Stereo, Lidar, GPS		
-			+ Classes: Car, Pedestrian, Cyclist
-			+ GT: Bounding box
-		+ Cityscapes [[Link]](https://www.cityscapes-dataset.com/)
-			+ Stereo, Timestamp		
-			+ Groups: flat, human, vehicle, construction, object, nature, sky, void
-			+ GT: Dense pixel-level annotations 
-		+ Virtual KITTI [[Link]](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Proxy-Virtual-Worlds)
-			+ Mono (forward / 15-deg-right, 15-deg-left)
-			+ Classes: Car, Pedestrian, Cyclist
-			+ GT: Bounding box, Instance-level pixel annotations, Optical-flow, Depth	
-			+ Weather conditions: morning, sunset, overcast, fog, rain
-		+ Synthia [[Link]](http://synthia-dataset.net/)
-			+ 8 RGB (form binocular 360 deg), 8 depth sensors
-			+ Classes: misc, sky, building, road, sidewalk, fence, vegetation, pole, car, sign, pedestrian, cyclist, lanemarking
-			+ GT: Instance-level pixel annotations
-			+ Seasons: winter, fall, spring, summer
-			+ Lightings: dynamic light, shadows, day-time, rain, night-time
+- [CMU Visual Localization Data Set](http://3dvis.ri.cmu.edu/data-sets/localization/): Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
+
 ---
 
 # Open Data
-* [옥스포드 Robot Car Dataset](http://robotcar-dataset.robots.ox.ac.uk/index.html)
-* [Comma.ai driving dataset](https://github.com/commaai/research) : 자율 주행, 7.5 hours of camera images, steering angles, and other vehicle data.
-* [Traffic Sign](http://www.vision.ee.ethz.ch/~timofter/traffic_signs/) : 신호등 데이터셋
-* [BelgiumTS Dataset](http://btsd.ethz.ch/shareddata/index.html) : 도로 안내판 데이터셋
-* [Udacity Driving Dataset](https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5#.1aq6pztwj) : Mountain View, 223G(10시간)
-- [INI](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) : 독일 신호등 데이터셋
-- [Udacity_Annotated Driving Dataset](https://github.com/udacity/self-driving-car/tree/master/annotations) : 도로상 차량, 트럭, 보행자 4.5GB
-- [KITTI](http://www.cvlibs.net/datasets/kitti/): 동영상??
-- [GTI](http://www.gti.ssr.upm.es/data/Vehicle_database.html): 차량 이미지 데이터셋
-- [CMU Visual Localization Data Set](http://3dvis.ri.cmu.edu/data-sets/localization/): Dataset collected using the Navlab 11 equipped with IMU, GPS, Lidars and cameras.
-- [NYU RGB-D Dataset](http://cs.nyu.edu/~silberman/datasets/): Indoor dataset captured with a Microsoft Kinect that provides semantic labels.
+
+
+
+
+
 - [TUM RGB-D Dataset](http://cvpr.in.tum.de/data/datasets/rgbd-dataset): Indoor dataset captured with Microsoft Kinect and high-accuracy motion capturing.
 - [New College Dataset](http://www.robots.ox.ac.uk/NewCollegeData/): 30 GB of data for 6 D.O.F. navigation and mapping (metric or topological) using vision and/or laser.
 - [The Rawseeds Project](http://www.rawseeds.org/): Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
