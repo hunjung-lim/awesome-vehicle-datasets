@@ -6,7 +6,6 @@
 ||[ImageNet](http://www.image-net.org/)|450K|200|2015||
 ||[COCO](http://cocodataset.org/)|120K|80|2014||
 ||[Pascal VOC](http://host.robots.ox.ac.uk/pascal/VOC/)|12K|20|2012||
-||[Oxford-IIIT Pet](http://www.robots.ox.ac.uk/~vgg/data/pets/)|7K|37|2012||
 ||[KITTI Vision](http://www.cvlibs.net/datasets/kitti/)|7K|3|2014||
 ||[ILSVRC](http://www.image-net.org/challenges/LSVRC/)||localization(1,000), Detection(200), Detection in Video(30)|2017||
 
@@ -15,7 +14,7 @@
 
 ![](https://i.imgur.com/rSz7Alf.png)
 
-- List of datasets : [Are we there yet](http://rodrigob.github.io/are_we_there_yet/build/#about)
+
 
 
 # 2D 
@@ -121,7 +120,7 @@
 
 - [The Rawseeds Project](http://www.rawseeds.org/): Indoor and outdoor datasets with GPS, odometry, stereo, omnicam and laser measurements for visual, laser-based, omnidirectional, sonar and multi-sensor SLAM evaluation.
 
-
+- List of datasets : [Are we there yet](http://rodrigob.github.io/are_we_there_yet/build/#about)
 
 
 
