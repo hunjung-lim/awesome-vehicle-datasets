@@ -50,12 +50,32 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 - City | Residential | Road | Campus | Person | Calibration
 
 ### 2.2 데이터 내용 ( synchronized at 10 Hz)
-- 흑백 이미지 (`png` file, 0.5 Megapixels)
-- 칼러 이미지 (`png` file, 0.5 Megapixels)
-- 3D 포인트 클라우드 (`binary float matrix` format, 100k points per frame)
+
+- 칼러/흑백 이미지 (`png` file, 0.5 Megapixels, 1382x512)
+  - 'image_00': left rectified grayscale image sequence
+  - 'image_01': right rectified grayscale image sequence
+  - 'image_02': left rectified color image sequence
+  - 'image_03': right rectified color image sequence
+
+- 3D 포인트 클라우드 (`binary float matrix` format, 100k points per frame, Nx4 float matrix )
+	- 4*num values: x, y, z, reflectance information
+	- x,y and y are stored in metric (m) Velodyne coordinates.
+	
 - 3D GPS/IMU data (`text` file, 위치, 속도, 가속, 메타 정보 )
+
 - Calibration (`text` file , Camera, Camera-to-GPS/IMU, Camera-to-Velodyne)
+
 - 3D object tracklet 라벨 (`xml` file)
+  - 'Car'
+  - 'Van'
+  - 'Truck'
+  - 'Pedestrian'
+  - 'Person (sitting)'
+  - 'Cyclist'
+  - 'Tram'
+  - 'Misc'
+
+> [KITTI_README.TXT](https://github.com/yanii/kitti-pcl/blob/master/KITTI_README.TXT)
 
 ![](http://i.imgur.com/wHxw8m6.png)
 - Title : 2011_09_26_drive_0001 (0.4 GB) 
