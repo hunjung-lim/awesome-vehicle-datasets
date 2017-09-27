@@ -134,7 +134,7 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 
 - [KITTI Dataset Exploration](https://github.com/navoshta/KITTI-Dataset/blob/master/README.md)
 
-
+- [scripts to create KITTI Tracklet files from rosbag capture data and evaluate Tracklet files](https://github.com/udacity/didi-competition/tree/master/tracklets)
 
 
 
