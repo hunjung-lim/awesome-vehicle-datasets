@@ -12,6 +12,8 @@
 > 출처 : [Object detection: an overview in the age of Deep Learning](https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/)
 
 
+- List of [Yet Another Computer Vision Index To Datasets (YACVID)](http://riemenschneider.hayko.at/vision/dataset/index.php)
+
 # 2D 
 
 # Scene 
