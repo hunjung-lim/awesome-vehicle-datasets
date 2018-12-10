@@ -5,3 +5,5 @@ http://cs.stanford.edu/people/teichman/stc/
 
 
 ![](http://cs.stanford.edu/people/teichman/stc/img/example_objs.jpg)
+
+about 1.3 million labeled point clouds in about 14,000 tracks recorded from an autonomous vehicle
