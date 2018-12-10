@@ -18,7 +18,9 @@
 
 - [CrowdAI](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/CrowdAI)
 
+- [Stanford Track Collection](https://github.com/hunjung-lim/awesome-vehicle-datasets/tree/master/vehicle/Stanford_Track_Collection): 14,000 tracks Lidar, Vehicle, human, motobike
 
+- TorontoCity benchmark : Lidar, Camera, Stereo Image
 
 ---
 
