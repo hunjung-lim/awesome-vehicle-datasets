@@ -1,10 +1,17 @@
-			+ Stereo, Lidar, GPS		
-			+ Classes: Car, Pedestrian, Cyclist
-			+ GT: Bounding box
 
-[The KITTI Vision Benchmark Suite Download](http://www.cvlibs.net/datasets/kitti/raw_data.php)
+- [[Paper_2012] Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite](https://github.com/hunjung-lim/awesome-vehicle-datasets/blob/master/vehicle/kitti/paper-2012.md)
+- KITTI+Dataset+Exploration.ipynb
+- KITTI+Dataset+Visualizing.ipynb
+
+
+
 
 # KITTI Dataset
+
+[The KITTI Vision Benchmark Suite Download](http://www.cvlibs.net/datasets/kitti/raw_data.php)
++ Stereo, Lidar, GPS		
++ Classes: Car, Pedestrian, Cyclist
++ GT: Bounding box
 
 ## 1. 개요 
 
