@@ -137,4 +137,10 @@
 > 출처 : [Object detection: an overview in the age of Deep Learning](https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/)
 
 
+---
 
+## TBC
+
+http://cvgl.stanford.edu/resources.html
+
+http://cvgl.stanford.edu/projects/pascal3d.html : RELATED DATASETS
