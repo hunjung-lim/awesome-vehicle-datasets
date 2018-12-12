@@ -1,4 +1,7 @@
-https://www.shapenet.org/
+# ShapeNet 
+
+- homepage : https://www.shapenet.org/
+- paper : [ShapeNet: An Information-Rich 3D Model Repository](http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf)
 
 by : Princeton, Stanford, TTIC
 
