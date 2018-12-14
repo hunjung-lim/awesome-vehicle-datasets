@@ -6,8 +6,18 @@
 
 ## Download 
 
-- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
 
+
+
+
+
+- Velodyne point clouds (29 GB): input data to VoxelNet
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
+- Training labels of object data set (5 MB): input label to VoxelNet
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_label_2.zip
+- Camera calibration matrices of object data set (16 MB): for visualization of predictions
+- Left color images of object data set (12 GB): for visualization of predictions
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip
 
 
 # KITTI Dataset
