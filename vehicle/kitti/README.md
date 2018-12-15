@@ -4,17 +4,6 @@
 - KITTI+Dataset+Visualizing.ipynb
 
 
-## Download 
-
-- Velodyne point clouds (29 GB): input data to VoxelNet
-	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
-- Training labels of object data set (5 MB): input label to VoxelNet
-	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_label_2.zip
-- Camera calibration matrices of object data set (16 MB): for visualization of predictions
-	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_calib.zip
-- Left color images of object data set (12 GB): for visualization of predictions
-	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip
-
 
 # KITTI Dataset
 
@@ -23,7 +12,7 @@
 + Classes: Car, Pedestrian, Cyclist
 + GT: Bounding box
 
-## 1. 개요 
+
 
 용도 : Benchmarks for stereo, optical flow, object detection
 
@@ -56,17 +45,38 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 |![](http://i.imgur.com/JGJmlBl.png)|<iframe width="560" height="315" src="https://www.youtube.com/embed/KXpZ6B1YB_k" frameborder="0" allowfullscreen></iframe>|
 |-|-|
 
+---
+## 1. [Evaluation: object- 3D object](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
 
+Download 
+
+- Velodyne point clouds (29 GB): input data to VoxelNet
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
+- Training labels of object data set (5 MB): input label to VoxelNet
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_label_2.zip
+- Camera calibration matrices of object data set (16 MB): for visualization of predictions
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_calib.zip
+- Left color images of object data set (12 GB): for visualization of predictions
+	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_image_2.zip
+
+---
+
+## 2. Evaluation : object- 2D object
+---
+
+## 3. Evaluation : Tracking
+
+---
 
 
-## 2. 데이터 
+## 9. [RAW 데이터](http://www.cvlibs.net/datasets/kitti/raw_data.php)
 
-### 2.1 데이터 분류 
+### 9.1 데이터 분류 
 
 - City | Residential | Road | Campus | Person | Calibration
 
-### 2.2 데이터 내용 ( synchronized at 10 Hz)
+### 9.2 데이터 내용 ( synchronized at 10 Hz)
 
 - 칼러/흑백 이미지 (`png` file, 0.5 Megapixels, 1382x512)
   - 'image_00': left rectified grayscale image sequence
