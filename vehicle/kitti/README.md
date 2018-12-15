@@ -6,11 +6,6 @@
 
 ## Download 
 
-
-
-
-
-
 - Velodyne point clouds (29 GB): input data to VoxelNet
 	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
 - Training labels of object data set (5 MB): input label to VoxelNet
@@ -82,6 +77,7 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 - 3D 포인트 클라우드 (`binary float matrix` format, 100k points per frame, Nx4 float matrix )
 	- 4*num values: x, y, z, reflectance information
 	- x,y and y are stored in metric (m) Velodyne coordinates.
+	- `raw_lidar = np.fromfile('000000.bin, dtype=np.float32).reshape((-1, 4))`
 	
 - 3D GPS/IMU data (`text` file, 위치, 속도, 가속, 메타 정보 )
 
