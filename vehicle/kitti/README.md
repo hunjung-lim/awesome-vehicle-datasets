@@ -48,12 +48,33 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 ---
 ## 1. [Evaluation: object- 3D object](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
+### 1.1 데이터 분류 
+
 The 3D object detection benchmark consists of 
 - 7481 training images + pointcloud  
 - 7518 test images + pointcloud 
 - total of 80.256 labeled objects. 
 
-Download 
+### 1.2 [Label format ](https://github.com/NVIDIA/DIGITS/blob/v4.0.0-rc.3/digits/extensions/data/objectDetection/README.md)
+
+`Pedestrian 0.00 0 -0.20 712.40 143.00 810.73 307.92 1.89 0.48 1.20 1.84 1.47 8.41 0.01`
+- 1 type Describes the type of object
+	- 'Car', 'Van', 'Truck','Pedestrian', 'Person_sitting', 'Cyclist', 'Tram','Misc' or 'DontCare'
+- 1 truncated Float from 0 (non-truncated) to 1 (truncated), where truncated refers to the object leaving image boundaries
+- 1 occluded Integer (0,1,2,3) indicating occlusion state:
+	- 0 = fully visible, 1 = partly occluded
+	- 2 = largely occluded, 3 = unknown
+- 1 alpha Observation angle of object, ranging [-pi..pi]
+- 4 bbox 2D bounding box of object in the image (0-based index):
+	- contains left, top, right, bottom pixel coordinates
+- 3 dimensions 3D object dimensions: height, width, length (in meters)
+- 3 location 3D object location x,y,z in camera coordinates (in meters)
+- 1 rotation_y Rotation ry around Y-axis in camera coordinates [-pi..pi]
+- 1 score Only for results: Float, indicating confidence in detection, needed for p/r curves, higher is better.
+
+> [KITTI](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt), [QnA](https://github.com/NVIDIA/DIGITS/issues/992)
+
+### 1.9 Download 
 - Velodyne point clouds (29 GB): input data to VoxelNet
 	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
 - Training labels of object data set (5 MB): input label to VoxelNet
