@@ -48,9 +48,12 @@ to the Bayer pattern interpolation process and are less sensitive to light. This
 ---
 ## 1. [Evaluation: object- 3D object](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
+The 3D object detection benchmark consists of 
+- 7481 training images + pointcloud  
+- 7518 test images + pointcloud 
+- total of 80.256 labeled objects. 
 
 Download 
-
 - Velodyne point clouds (29 GB): input data to VoxelNet
 	- https://s3.eu-central-1.amazonaws.com/avg-kitti/data_object_velodyne.zip
 - Training labels of object data set (5 MB): input label to VoxelNet
