@@ -1,7 +1,6 @@
 
 - [[Paper_2012] Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite](https://github.com/hunjung-lim/awesome-vehicle-datasets/blob/master/vehicle/kitti/paper-2012.md)
-- KITTI+Dataset+Exploration.ipynb
-- KITTI+Dataset+Visualizing.ipynb
+
 
 
 
@@ -95,6 +94,9 @@ The 3D object detection benchmark consists of
 
 
 ## 9. [RAW 데이터](http://www.cvlibs.net/datasets/kitti/raw_data.php)
+
+- [KITTI+Dataset+Exploration.ipynb](https://github.com/hunjung-lim/awesome-vehicle-datasets/blob/master/vehicle/kitti/KITTI%2BDataset%2BExploration.ipynb)
+- [KITTI+Dataset+Visualizing.ipynb](https://github.com/hunjung-lim/awesome-vehicle-datasets/blob/master/vehicle/kitti/KITTI%2BDataset%2BVisualizing.ipynb)
 
 ### 9.1 데이터 분류 
 
