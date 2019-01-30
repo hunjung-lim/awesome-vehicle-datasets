@@ -11,7 +11,7 @@
 + Classes: Car, Pedestrian, Cyclist
 + GT: Bounding box
 
-
+- [검증코드] kitti-object-eval-python : [깃허브](https://github.com/traveller59/kitti-object-eval-python)
 
 용도 : Benchmarks for stereo, optical flow, object detection
 
