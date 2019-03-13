@@ -22,6 +22,8 @@
 
 - TorontoCity benchmark : Lidar, Camera, Stereo Image
 
+- [KAIST Urban Data Set](./vehicle/KaistUrbanDataset/README.md)
+
 ---
 
 - List of [Yet Another Computer Vision Index To Datasets (YACVID)](http://riemenschneider.hayko.at/vision/dataset/index.php)
