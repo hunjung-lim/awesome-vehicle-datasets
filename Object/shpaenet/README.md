@@ -30,7 +30,7 @@ download : `wget https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_s
 ```
 
 
-###### 02691156/points/cf71f5442c4120db37678474be485ca.pts
+###### 예시) 02691156/points/cf71f5442c4120db37678474be485ca.pts
 
 uniformly sampled points from ShapeNetCore models
 
@@ -46,7 +46,7 @@ uniformly sampled points from ShapeNetCore models
 0.05794 -0.00043 0.16675
 ```
 
-###### 02691156/points_label/cf71f5442c4120db37678474be485ca.seg
+###### 예시) 02691156/points_label/cf71f5442c4120db37678474be485ca.seg
 
 per-point segmentation labels
 
@@ -60,7 +60,7 @@ per-point segmentation labels
 2
 ```
 
-###### 02691156/seg_img/cf71f5442c4120db37678474be485ca.png
+###### 예시) 02691156/seg_img/cf71f5442c4120db37678474be485ca.png
 
 a visualization of labeling
 
@@ -109,10 +109,23 @@ $ train_gan.py
 # print('[%d: %d/%d] train lossD: %f lossG: %f' %(epoch, i, num_batch, lossD.data[0], lossG.data[0])) #필요시 L136 주석 처리 
 ```
 
-./gan폴더 생성후 `gan/modelD_*.pth`와 `gan/modelG_*.pth` 생성 
+결과 : ./gan폴더 생성후 `gan/modelD_*.pth`와 `gan/modelG_*.pth` 생성 
 
 
-##
+## 생성 
+
+```
+python3 show_gan.py --model gan/modelG_3.pth
+#gen = PointGen(num_points = 2500)#2048)
+```
+
+---
+
+## 사용자 데이터 활용 하기 
+
+1. synsetoffset2category.txt에 `폳더명, Label명 추가` eg. `7777`, `human`
+2. `train_gan.py`의 `class_choice` 를 label명으로 수정 eg. `class_choice = ['human']`
+
 
 ---
 
