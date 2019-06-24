@@ -11,7 +11,7 @@ by : Princeton, Stanford, TTIC
 
 download : `wget https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_segmentation_benchmark_v0.zip`
 
-
+```
 ├── 02691156
 │   ├── points : `*.pts`  pcd의 헤더 부분을 제거한 x,y,z값
 │   ├── points_label : `*.png` : 생성된 pts의 이미지 변환 파일, 사용안함 (points_label)
@@ -27,7 +27,7 @@ download : `wget https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_s
 └── train_test_split
 │
 └──synsetoffset2category.txt 
-
+```
 
 
 ###### 02691156/points/cf71f5442c4120db37678474be485ca.pts
